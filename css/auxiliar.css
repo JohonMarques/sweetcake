@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+textarea{
+    resize: none;
+}
+
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.d-flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+
+.img-100{
+    max-width: 100px;
+}
+
+.img-300{
+    max-width: 300px;
+}
+
+.img-500{
+    max-width: 500px;
+}

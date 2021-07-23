@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/auxiliar.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+
+    <!--fontawesome import-->
+    <link rel="stylesheet" href="./font-awesome/css/all.min.css" />
+    <script src="./font-awesome/js/all.min.js"></script>
+
+    <title>Home</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="" class="logo">LOGO</a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cakes.html">Bolos</a></li>
+        <li><a href="candies.html">Doces</a></li>
+        <li><a href="#contact">Contato</a></li>
+        <li><a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </header>
+
+    <div class="container d-flex-row">
+      <form id="contact" action="" method="post" netlify>
+        <h3>CONTATO</h3>
+        <h4>Entre em contato conosco e tire suas duvidas ou faça sua encomenda</h4>
+        <fieldset>
+          <input
+            placeholder="Nome"
+            type="text"
+            tabindex="1"
+            required
+            autofocus
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="email@email.com"
+            type="email"
+            tabindex="2"
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="(79)99999-9999"
+            type="tel"
+            tabindex="3"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="@instagram"
+            type="text"
+            tabindex="4"
+          />
+        </fieldset>
+        <fieldset>
+          <textarea
+            placeholder="Digite sua mensagem...."
+            tabindex="5"
+            required
+          ></textarea>
+        </fieldset>
+        <fieldset>
+          <button
+            name="submit"
+            type="submit"
+            id="contact-submit"
+            data-submit="...Sending"
+          >
+            Enviar
+          </button>
+        </fieldset>
+      </form>
+        <!-- <img src="./images/fatia-chocolate.jpg" alt="bolo" class="img-responsive img-500"> -->
+          
+    </div>
+
+    <footer class="d-flex-column">
+        <div class="made">
+            <span>Feito por Johon Marques</span>
+        </div>
+        <div class="social d-flex-row">
+            <a href="https://api.whatsapp.com/send?phone=5579981459747&text=Hello%20There"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/JohonMarques"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/johon-marques"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+  </body>
+</html>
