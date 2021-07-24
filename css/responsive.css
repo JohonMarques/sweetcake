@@ -15,6 +15,18 @@
     display: none;
   }
 
+  .about{
+    padding-top: 7rem;
+  }
+
+  .about .about-text{
+    width: 30rem;
+  }
+
+  .about.d-flex-row{
+    gap: 10rem;
+  }
+
   footer.d-flex-column{
     flex-direction: row;
     align-items: center
