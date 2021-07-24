@@ -40,47 +40,50 @@
         </li>
       </ul>
     </header>
-
-    <div class="about d-flex-row">
-      <div class="about-text">
-        <h2>Quem Somos</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
-          dolorem voluptatibus tempore aliquid, vitae beatae dignissimos optio
-          sunt delectus est laudantium id praesentium necessitatibus distinctio,
-          aliquam aspernatur. Illo, perferendis dolores?
-        </p>
-      </div>
-      <div class="about-image">
-        <img
-          src="./images/pedacos-diversos.jpg"
-          alt="pedacos de bolo"
-          class="img-responsive img-300"
-        />
-      </div>
-    </div>
-    <h3 class="diferentials-title">Diferenciais</h3>
-    <div class="diferentials d-flex-row">
-      <div class="diferential d-flex-column">
-        <div class="diferential-image">
-          <img src="./images/baker.png" alt="Confeiteira" class="img-responsive img-100">
+    <main>
+      <section id="about">
+        <div class="about d-flex-row">
+          <div class="about-text">
+            <h2>Quem Somos</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              dolorem voluptatibus tempore aliquid, vitae beatae dignissimos optio
+              sunt delectus est laudantium id praesentium necessitatibus distinctio,
+              aliquam aspernatur. Illo, perferendis dolores?
+            </p>
+          </div>
+          <div class="about-image">
+            <img
+              src="./images/pedacos-diversos.jpg"
+              alt="pedacos de bolo"
+              class="img-responsive img-300"
+            />
+          </div>
         </div>
-        <p>Produtos feitos com cuidado e carinho</p>
-      </div>
-      <div class="diferential d-flex-column">
-        <div class="diferential-image">
-          <img src="./images/bowl.png" alt="Confeiteira" class="img-responsive img-100">
+      </section>
+      <section id="diferentials">
+        <h3 class="diferentials-title">Diferenciais</h3>
+        <div class="diferentials d-flex-row">
+          <div class="diferential d-flex-column">
+            <div class="diferential-image">
+              <img src="./images/baker.png" alt="Confeiteira" class="img-responsive img-100">
+            </div>
+            <p>Produtos feitos com cuidado e carinho</p>
+          </div>
+          <div class="diferential d-flex-column">
+            <div class="diferential-image">
+              <img src="./images/bowl.png" alt="Confeiteira" class="img-responsive img-100">
+            </div>
+            <p>Ingredientes Selecionados</p>
+          </div>
+          <div class="diferential d-flex-column">
+            <div class="diferential-image">
+              <img src="./images/delivery-man.png" alt="Confeiteira" class="img-responsive img-100">
+            </div>
+            <p>Entrega rápida e gratuita</p>
+          </div>
         </div>
-        <p>Ingredientes Selecionados</p>
-      </div>
-      <div class="diferential d-flex-column">
-        <div class="diferential-image">
-          <img src="./images/delivery-man.png" alt="Confeiteira" class="img-responsive img-100">
-        </div>
-        <p>Entrega rápida e gratuita</p>
-      </div>
-    </div>
-
+      </section>
     <div class="container d-flex-row">
       <form id="contact" action="/" method="post" data-netlify="true">
         <h3>CONTATO</h3>
@@ -93,7 +96,6 @@
             type="text"
             tabindex="1"
             required
-            autofocus
           />
         </fieldset>
         <fieldset>
@@ -131,7 +133,7 @@
       </form>
       <!-- <img src="./images/fatia-chocolate.jpg" alt="bolo" class="img-responsive img-500"> -->
     </div>
-
+  </main>
     <footer class="d-flex-column">
       <div class="made">
         <span>Feito por Johon Marques</span>
