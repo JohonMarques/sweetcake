@@ -35,7 +35,8 @@ a {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  background-color: #e46ca9;
+  color: #fff;
 }
 
 .header .logo {
@@ -150,12 +151,18 @@ a {
   border-radius: 10px;
 }
 
+#diferentials{
+  background: #e46ca9;
+  padding: 2rem 0;
+  margin: 1.5rem 0;
+  color:#fff;
+}
 
 .diferentials-title{
   font-size: 2rem;
   letter-spacing: 2px;
   text-align: center;
-  margin: 2rem 0;
+  margin-bottom: 1.5rem;
   text-transform: uppercase;
 }
 
@@ -170,6 +177,23 @@ a {
 
 .diferential p{
   font-size: 1.2rem;
+}
+
+.address{
+  margin: 1.2rem 0;
+}
+
+.address a{
+  text-decoration: none;
+}
+
+.recaptcha{
+  margin-bottom: 10px;
+}
+
+.social-networks a{
+  text-decoration: none;
+  margin: .6rem 0;
 }
 
 footer{

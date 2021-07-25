@@ -77,15 +77,18 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #0cf;
+  background: #e46ca9;
   color: #fff;
   margin: 0 0 5px;
   padding: 10px;
-  font-size: 15px;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 #contact button[type="submit"]:hover {
-  background: #09c;
+  background: #eb2e8c;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
