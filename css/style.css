@@ -120,10 +120,10 @@ a {
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
-
-#about{
+main{
   padding-top: 5rem;
 }
+
 
 .about.d-flex-row{
   flex-wrap: wrap;
