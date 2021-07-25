@@ -120,10 +120,10 @@ a {
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
+
 main{
   padding-top: 5rem;
 }
-
 
 .about.d-flex-row{
   flex-wrap: wrap;
@@ -189,6 +189,10 @@ main{
 
 .recaptcha{
   margin-bottom: 10px;
+}
+
+.map iframe{
+  width: 100vw;
 }
 
 .social-networks a{

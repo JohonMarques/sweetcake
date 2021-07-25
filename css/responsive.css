@@ -19,10 +19,10 @@
     background: #e46ca9;
     color: #fff;
   }
+
   main{
     padding-top: 7rem;
   }
-
 
   .about .about-text{
     width: 30rem;
@@ -42,6 +42,10 @@
 
   .diferential{
     min-width: 20rem;
+  }
+
+  .map iframe{
+    width: 400px;
   }
 
   footer.d-flex-column{
