@@ -4,7 +4,7 @@
     float: left;
   }
   .header li a {
-    padding: 20px 30px;
+    padding: 1.8rem;
   }
   .header .menu {
     clear: none;
@@ -15,7 +15,7 @@
     display: none;
   }
 
-  .about{
+  #about{
     padding-top: 7rem;
   }
 
@@ -25,6 +25,10 @@
 
   .about.d-flex-row{
     gap: 10rem;
+  }
+
+  .diferentials{
+    justify-content: space-around;
   }
 
   footer.d-flex-column{
